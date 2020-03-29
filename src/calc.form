@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="calc">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="7" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="0">
+    <margin top="10" left="2" bottom="2" right="2"/>
+    <constraints>
+      <xy x="20" y="18" width="648" height="501"/>
+    </constraints>
+    <properties>
+      <background color="-13829896"/>
+      <foreground color="-1"/>
+      <minimumSize width="508" height="400"/>
+      <preferredSize width="508" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4875" class="javax.swing.JButton" binding="b1">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="158" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="8e744" class="javax.swing.JButton" binding="b4">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="158" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="1a690" class="javax.swing.JButton" binding="b7">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="158" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="b0ec9" class="javax.swing.JButton" binding="b2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="126" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="631d1" class="javax.swing.JButton" binding="b5">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="126" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="61eee" class="javax.swing.JButton" binding="b8">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="126" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="834bd" class="javax.swing.JTextField" binding="l">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="6" vsize-policy="0" hsize-policy="3" anchor="8" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <columns value="20"/>
+          <disabledTextColor color="-16186622"/>
+          <editable value="false"/>
+          <focusable value="true"/>
+          <font name="JetBrains Mono" size="20" style="1"/>
+          <horizontalAlignment value="4"/>
+          <inheritsPopupMenu value="true"/>
+          <margin top="2" left="6" bottom="2" right="6"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f88a5" class="javax.swing.JButton" binding="b6">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <margin top="5" left="4" bottom="4" right="5"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="47038" class="javax.swing.JButton" binding="b9">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="1c87" class="javax.swing.JButton" binding="bm">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16505014"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="c0e99" class="javax.swing.JButton" binding="bd">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16505014"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="dadc4" class="javax.swing.JButton" binding="bp">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16505014"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="912ab" class="javax.swing.JButton" binding="bo">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="158" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="22" style="1"/>
+          <foreground color="-1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="90c5d" class="javax.swing.JButton" binding="bdot">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="126" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="22" style="1"/>
+          <foreground color="-1"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="d6d4e" class="javax.swing.JButton" binding="be">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16505014"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="22" style="1"/>
+          <foreground color="-1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="a6401" class="javax.swing.JButton" binding="bs">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16505014"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="b68c2" class="javax.swing.JLabel" binding="label">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Brush Script MT" size="48" style="2"/>
+          <foreground color="-16186622"/>
+          <text value="     casio"/>
+        </properties>
+      </component>
+      <component id="eac3d" class="javax.swing.JButton" binding="back">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15057409"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <inheritsPopupMenu value="false"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="&lt;-"/>
+        </properties>
+      </component>
+      <component id="1ed47" class="javax.swing.JButton" binding="bc">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-42627"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="9096f" class="javax.swing.JButton" binding="b3">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-22255"/>
+          <borderPainted value="true"/>
+          <font name="JetBrains Mono" size="24" style="1"/>
+          <foreground color="-1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
